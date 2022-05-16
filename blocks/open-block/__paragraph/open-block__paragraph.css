@@ -1,0 +1,19 @@
+.open-block__paragraph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+@media (max-width: 768px){
+    .open-block__paragraph {
+        flex-wrap: wrap;
+        flex-direction: none;
+        margin-left: 45px;
+      }
+}
+@media (max-width: 768px){
+    .open-block__paragraph:after {
+        content:'';
+        width:100%;
+        order:0;
+      }
+}

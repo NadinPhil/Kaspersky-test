@@ -1,0 +1,16 @@
+.menu__title {
+    margin: 0;
+    padding-top: 114px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .menu__title {
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 0px;
+    }
+}

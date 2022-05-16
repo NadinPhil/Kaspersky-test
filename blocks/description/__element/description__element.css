@@ -1,0 +1,5 @@
+.description__element{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}

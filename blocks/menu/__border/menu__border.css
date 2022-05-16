@@ -1,0 +1,14 @@
+.menu__border {
+    opacity: 0.8;
+    border: 2px solid #FFFFFF;
+    border-style: solid none none none;
+    margin-top: 35px;
+    width: 89px;
+}
+
+@media (max-width: 768px) {
+    .menu__border {
+        margin-top: 34px;
+        width: 85px;
+    }
+}

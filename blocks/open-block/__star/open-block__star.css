@@ -1,0 +1,9 @@
+.open-block__star{
+    margin-right: 5px;
+}
+@media (max-width: 768px){
+    .open-block__star{
+        width: 15px;
+        height: 14px;
+    }
+}

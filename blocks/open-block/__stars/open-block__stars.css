@@ -1,0 +1,4 @@
+.open-block__stars{
+    display: flex;
+    flex-direction: row;
+}

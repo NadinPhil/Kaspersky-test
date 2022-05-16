@@ -1,0 +1,6 @@
+.description__info-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}

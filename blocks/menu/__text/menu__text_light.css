@@ -1,0 +1,14 @@
+.menu__text_light {
+    margin: 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    float: left;
+    opacity: 0.8;
+}
+@media (max-width: 768px) {
+    .menu__text_light {
+        font-size: 20px;
+        float:none;
+    }
+}

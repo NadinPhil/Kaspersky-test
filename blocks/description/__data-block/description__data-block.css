@@ -1,0 +1,16 @@
+.description__data-block{
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+    .description__data-block:last-child{
+        margin-bottom: 0px;
+    }
+    @media (max-width: 768px) {
+        .description__data-block {
+            flex-direction: column;
+            margin-bottom: 23px;
+        }
+    }

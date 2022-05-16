@@ -1,0 +1,25 @@
+.open-block__logo {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.open-block__logo:last-child {
+    padding-right: 123px;
+}
+@media (max-width: 1300px){
+    .open-block__logo:last-child{
+        padding-right: 50px;
+    }
+}
+@media (max-width: 1024px){
+    .open-block__logo:last-child{
+        padding-right: 16px;
+    }
+}
+ @media (max-width: 768px){
+    .open-block__logo{
+        order:1;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+} 

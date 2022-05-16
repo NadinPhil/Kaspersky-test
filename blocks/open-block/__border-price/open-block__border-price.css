@@ -1,0 +1,5 @@
+.open-block__border-price{
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-style: none solid none solid;
+    height: 88px;
+}

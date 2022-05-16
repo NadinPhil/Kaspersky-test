@@ -1,0 +1,8 @@
+.description__check-mark{
+    margin-right: 18px;
+}
+@media (max-width: 768px) {
+    .description__check-mark {
+        margin-right: 16px;
+    }
+}

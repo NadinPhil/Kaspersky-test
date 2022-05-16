@@ -1,0 +1,7 @@
+.menu {
+    background: linear-gradient(100.56deg, rgba(29, 29, 27, 0.8) 0%, #1D1D1B 59.08%), linear-gradient(180deg, rgba(29, 29, 27, 0.8) 0%, #1D1D1B 100%), linear-gradient(103.91deg, #23D1AE 0%, rgba(1, 50, 35, 0.8) 59.93%);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}

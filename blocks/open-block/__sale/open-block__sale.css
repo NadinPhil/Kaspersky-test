@@ -1,0 +1,17 @@
+.open-block__sale {
+    margin: 0;
+    padding: 7px 20px 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .open-block__sale {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 9px 6px 10px 7px;
+    }
+}

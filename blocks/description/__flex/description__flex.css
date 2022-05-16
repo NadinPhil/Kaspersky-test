@@ -1,0 +1,10 @@
+.description__flex{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+@media (max-width: 768px){
+    .description__flex{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.open-block__review {
+    margin-top: 27px;
+    margin-bottom: 32px;
+    margin-right: 74px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (max-width: 1300px) {
+    .open-block__review {
+        margin-right: 44px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .open-block__review {
+        margin-right: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .open-block__review {
+        margin-right: 0px;
+        margin-top: 21px;
+        margin-bottom: 10px;
+    }
+}

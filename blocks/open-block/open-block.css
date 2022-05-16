@@ -1,0 +1,23 @@
+.open-block{
+    display: flex;
+    flex-direction: column;
+    margin-right: 133px;
+    margin-left: 135px;
+    position: absolute;
+    top: 664px;
+    z-index: 200;
+}
+@media (max-width: 1200px){
+    .open-block{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+@media (max-width: 980px){
+    .open-block{
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        top: 0;
+    }
+}

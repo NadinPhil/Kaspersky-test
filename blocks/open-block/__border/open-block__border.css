@@ -1,0 +1,12 @@
+.open-block__border {
+    border: 2px solid rgba(102, 102, 102, 0.4);
+    border-style: none solid none none;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .open-block__border {
+        order: 1;
+       
+    }
+}

@@ -1,0 +1,35 @@
+.open-block__button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF3748;
+    border-radius: 3px;
+    border-color: #FF3748;
+    max-width: 118px;
+    cursor: pointer;
+    border-style: none;
+}
+@media (max-width: 768px) {
+    .open-block__button {
+        order:1;
+        max-width: 200px;
+        width: 100%;
+        margin: 20px 0px 20px 30px;
+        max-height: 48px;
+      }
+}
+@media (max-width: 500px) {
+    .open-block__button {
+        order:1;
+        max-width: 296px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        
+      }
+}

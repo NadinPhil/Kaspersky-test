@@ -1,0 +1,9 @@
+.open-block__top-part{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 980px){
+    .open-block__top-part{
+        flex-direction: column;
+    }
+}

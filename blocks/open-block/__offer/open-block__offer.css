@@ -1,0 +1,26 @@
+.open-block__offer {
+    width: 285px;
+    height: 40px;
+    background: #8233FF;
+}
+
+@media (max-width: 1300px) {
+    .open-block__offer {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .open-block__offer {
+        width: 180px;
+    }
+}
+
+@media (max-width: 980px) {
+    .open-block__offer {
+        width: 179px;
+        height: 36px;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+}

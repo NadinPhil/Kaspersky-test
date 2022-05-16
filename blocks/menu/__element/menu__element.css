@@ -1,0 +1,12 @@
+.menu__element{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+@media (max-width: 768px) {
+    .menu__element {
+        align-items: flex-start;
+    }
+}

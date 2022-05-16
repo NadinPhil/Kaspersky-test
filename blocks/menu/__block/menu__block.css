@@ -1,0 +1,22 @@
+.menu__block{
+    margin-left: 166px;
+    margin-bottom: 136px;
+    display: flex;
+    flex-direction: column;
+    width: 607px;
+    z-index: 2;
+}
+@media (max-width: 1024px){
+    .menu__block{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px){
+    .menu__block{
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 7px;
+        margin-top: 422px;
+        width: 312px;
+    }
+}

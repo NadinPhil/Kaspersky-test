@@ -1,0 +1,9 @@
+ .description__img{
+    
+}
+
+@media (max-width: 1300px) {
+    .description__img {
+        display: none;
+    }
+} 

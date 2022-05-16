@@ -1,0 +1,24 @@
+.description__img-block {
+    position: absolute;
+    top: 0px;
+    left: 521px;
+    background: url(../../../images/Rectangle\ 110.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 10;
+}
+
+@media (max-width: 360px) {
+    .description__img-block {
+        height: 52px;
+        width: 100%;
+        position: absolute;
+        top: 368px;
+        left: 0px;
+        background: url(../../../images/Rectangle\ 110.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        z-index: 10;
+        background: url(../../../images/gradient.png);
+    }
+}

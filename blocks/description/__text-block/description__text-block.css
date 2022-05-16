@@ -1,0 +1,17 @@
+.description__text-block {
+    margin: 0;
+    margin-top: 51px;
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+@media (max-width: 768px) {
+    .description__text-block {
+        margin: 0;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 19px;
+    }
+}

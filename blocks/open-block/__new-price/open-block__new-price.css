@@ -1,0 +1,21 @@
+.open-block__new-price {
+    float: left;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 52px;
+    color: #1D1D1B;
+    margin: 0;
+}
+@media (max-width: 1380px) {
+    .open-block__new-price {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .open-block__new-price {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}

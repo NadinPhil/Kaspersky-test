@@ -1,0 +1,36 @@
+.open-block__list {
+    margin-top: 32px;
+    max-width: 191px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #1D1D1B;
+    border: 2px solid #1D1D1B;
+    background: #23D1AE;
+    padding: 8px 12px  8px 13px;
+    margin-left: 30px;
+    margin-right: 24px;
+}
+@media (max-width: 1380px) {
+    .open-block__new-price {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .open-block__new-price {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .open-block__list {
+        order:1;
+        margin: 20px 0;
+        max-width: 296px;
+        width: 100%;
+      }
+}

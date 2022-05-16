@@ -1,0 +1,15 @@
+.description__title-mode {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #444444;
+    margin: 0;
+    padding-top: 51px;
+}
+@media (max-width: 768px){
+    .description__title-mode{
+        padding-top: 35px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+}

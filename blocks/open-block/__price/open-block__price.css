@@ -1,0 +1,24 @@
+.open-block__price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px 0;
+    padding-left: 24px;
+    padding-right: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-style: none solid none solid;
+    height: 88px;
+    flex-shrink: 0;
+}
+@media (max-width: 768px) {
+    .open-block__price {
+        order:1;
+        margin: 0px;
+        padding: 0;
+        width: 100%;
+        border-style:  solid none solid none;
+        height: 100%;
+        justify-content: center;
+        padding: 6px 0 8px;
+      }
+}

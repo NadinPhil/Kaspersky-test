@@ -1,0 +1,8 @@
+.description{
+    margin-top: 140px;
+}
+@media (max-width: 768px){
+    .description{
+        margin-top: 34px;
+    }
+}

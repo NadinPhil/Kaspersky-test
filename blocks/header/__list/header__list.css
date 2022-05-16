@@ -1,0 +1,22 @@
+.header__list {
+    margin: 13px 166px 13px 0;
+    background: #F2F2F2;
+    font-family: 'Kaspersky Sans';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #1D1D1B;
+    padding: 8px 9px 8px 8px;
+    border: none;
+}
+@media (max-width: 1024px){
+    .header__list{
+        margin: 13px 50px 13px 0;
+    }
+}
+@media (max-width: 360px){
+    .header__list{
+        margin: 13px 20px 13px 0;
+    }
+}
