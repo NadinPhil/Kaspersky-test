@@ -12,7 +12,7 @@
 <body>
     <div class="page">
         <div class="page__container">
-            <header class="header">
+            <header class="header header_fixed">
                 <img class="header__logo" alt="Логотип" src="images/Kaspersky.svg">
                 <select class="header__list">
                     <option value="1">GBR</option>
@@ -52,21 +52,20 @@
                                 </div>
                             </li>
                         </ul>
+                        <div class="menu__paragraph">
+                            <p class="menu__paragraph-text">Compatible with:</p>
+                            <img class="menu__logo" src="images/windows_logos_PNG25.svg" alt="Window">
+                            <div class="menu__boundary"></div>
+                            <img class="menu__logo" src="images/1280px-MacOS_wordmark_(2017).svg" alt="MacOS">
+                            <div class="menu__boundary"></div>
+                            <img class="menu__logo" src="images/Android_symbol_green_RGB.svg" alt="Android">
+                            <div class="menu__boundary"></div>
+                            <img class="menu__logo" src="images/IOS_logo_2010.svg" alt="IOS">
+                        </div>
                     </div>
-
                 </section>
                 <section class="open-block">
                     <div class="open-block__top-part">
-                        <div class="open-block__paragraph">
-                            <p class="open-block__text">Compatible with:</p>
-                            <img class="open-block__logo" src="images/windows_logos_PNG25.svg" alt="Window">
-                            <div class="open-block__border"></div>
-                            <img class="open-block__logo" src="images/1280px-MacOS_wordmark_(2017).svg" alt="MacOS">
-                            <div class="open-block__border"></div>
-                            <img class="open-block__logo" src="images/Android_symbol_green_RGB.svg" alt="Android">
-                            <div class="open-block__border"></div>
-                            <img class="open-block__logo" src="images/IOS_logo_2010.svg" alt="IOS">
-                        </div>
                         <div class="open-block__offer">
                             <p class="open-block__sale">Save 20%</p>
                         </div>
@@ -155,14 +154,22 @@
                             <img class="description__img" src="images/Rectangle 112.png" alt="Компьютер">
                         </div>
                     </div>
-
                 </section>
-
+                <section class="sticky">
+                    <div class="sticky__block">
+                        <div class="sticky__element">
+                            <h3 class="sticky__title">Kaspersky Internet Security</h3>
+                            <p class="sticky__text">3 Devices, 1 year</p>
+                        </div>
+                        <button class="sticky__button">Buy Now</button>
+                    </div>
+                </section>
             </main>
             <footer class="footer">
             </footer>
         </div>
     </div>
+    <script src="/script.js"></script>
 </body>
 
 </html>

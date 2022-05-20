@@ -1,0 +1,7 @@
+@media (min-width: 980px){
+    .open-block_scrolling{
+        position: fixed;
+        top: 0px;
+        z-index: 1000;
+    }
+}

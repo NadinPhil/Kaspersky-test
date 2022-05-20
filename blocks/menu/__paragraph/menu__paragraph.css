@@ -1,17 +1,19 @@
-.open-block__paragraph{
+.menu__paragraph{
     display: flex;
     flex-direction: row;
-    align-items: center;  
+    align-items: center;
+    margin-top: 60px;  
 }
 @media (max-width: 768px){
-    .open-block__paragraph {
+    .menu__paragraph {
         flex-wrap: wrap;
         flex-direction: none;
-        margin-left: 45px;
+        margin-left: 14px;
+        margin-top:27px;
       }
 }
 @media (max-width: 768px){
-    .open-block__paragraph:after {
+    .menu__paragraph:after {
         content:'';
         width:100%;
         order:0;

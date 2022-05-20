@@ -5,6 +5,11 @@
     margin-bottom: 20px;
     align-items: flex-start;
 }
+.menu__element:last-child{
+    
+    margin-bottom: 0px;
+    
+}
 @media (max-width: 768px) {
     .menu__element {
         align-items: flex-start;

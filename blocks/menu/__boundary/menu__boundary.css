@@ -1,11 +1,11 @@
-.open-block__border {
+.menu__boundary {
     border: 2px solid rgba(102, 102, 102, 0.4);
     border-style: none solid none none;
     height: 24px;
 }
 
 @media (max-width: 768px) {
-    .open-block__border {
+    .menu__boundary {
         order: 1;
        
     }

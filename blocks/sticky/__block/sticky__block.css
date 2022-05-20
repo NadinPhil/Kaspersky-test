@@ -1,0 +1,9 @@
+.sticky__block{
+    background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+    margin-left: 15px;
+    margin-right: 17px;
+    padding: 13px 15px 7px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

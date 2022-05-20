@@ -1,0 +1,7 @@
+@media (max-width: 980px){
+    .open-block_fixed{
+        position: fixed;
+        top: 64px;
+        z-index: 1000;
+    }
+}

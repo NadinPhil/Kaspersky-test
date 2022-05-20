@@ -1,6 +1,5 @@
-.open-block__text {
+.menu__paragraph-text {
     margin: 0;
-    margin-left: 32px;
     margin-right: 8px;
     font-weight: 300;
     font-size: 16px;
@@ -8,8 +7,8 @@
     color: #FFFFFF;
 }
 @media (max-width: 768px){
-    .open-block__text{
-        margin-left: 13px;
+    .menu__paragraph-text{
+        margin-left: 20px;
         margin-bottom: 13px;
         font-size: 12px;
         line-height: 16px;

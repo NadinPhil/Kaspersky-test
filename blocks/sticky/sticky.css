@@ -1,0 +1,6 @@
+.sticky{
+    visibility: hidden;
+    position: sticky;
+    bottom: 2px;
+    z-index: 300; 
+}

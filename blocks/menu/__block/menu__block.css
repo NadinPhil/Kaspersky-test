@@ -1,6 +1,6 @@
 .menu__block{
     margin-left: 166px;
-    margin-bottom: 136px;
+    margin-bottom: 76px;
     display: flex;
     flex-direction: column;
     width: 607px;
@@ -15,7 +15,7 @@
     .menu__block{
         margin-left: 24px;
         margin-right: 24px;
-        margin-bottom: 7px;
+        margin-bottom: 0px;
         margin-top: 422px;
         width: 312px;
     }

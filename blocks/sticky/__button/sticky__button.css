@@ -1,0 +1,14 @@
+.sticky__button{
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF3748;
+    border-radius: 3px;
+    border-color: #FF3748;
+    max-width: 78px;
+    cursor: pointer;
+    border-style: none;
+}
